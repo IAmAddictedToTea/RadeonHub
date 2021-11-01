@@ -1,5 +1,5 @@
 local localplayer = game:GetService("Players").LocalPlayer
-local blacklisted = {"Ultra_Gamer1223"}
+local blacklisted = {"2821579391"}
 
 for _, blacklisted in pairs(blacklisted) do
 	if localplayer.UserId == blacklisted then
