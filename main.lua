@@ -1,4 +1,4 @@
-local blacklisted = {2821579391}
+local blacklisted = {}
 local plr = game:GetService("Players").LocalPlayer
 
 for _, v in pairs(blacklisted) do
