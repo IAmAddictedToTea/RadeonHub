@@ -1,8 +1,10 @@
-local blacklisted = {"2821579391"}
-local localplr = game:GetService("Players").LocalPlayer
+local blacklisted = {2821579391}
+local plr = game:GetService("Players").LocalPlayer
 
-for _, blacklisted in pairs(blacklisted) do
-    if localplr.UserId == blacklisted then
-        localplr:Kick("You are not allowed to use RadeonHub. fuck off.")
-    end
+for _, v in pairs(blacklisted) do
+	if plr.UserId == v then
+		plr:Kick("You are not allowed to use RadeonHub.")
+	end
 end
+
+print("Sweaty was here.")
