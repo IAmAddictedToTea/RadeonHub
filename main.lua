@@ -18,7 +18,7 @@ function dbog()
     print("Dbog") -- Placeholder. Actual script code will be put here once I am done.
 end
 
---Looking for game.
+--Looking for game. It is in a weird order due to functions needed to be specified before they can be called.
 if game.CreatorId == 5237711 then
     dbog()
 end
