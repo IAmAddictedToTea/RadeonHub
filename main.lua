@@ -1,3 +1,4 @@
+--Blacklist system.
 local blacklisted = {
 	2728026790, --imtrashcanatBedwars cracking/reselling scripts.
 	2927470557, -- Maxthedogboialt1 cracking/reselling scripts.
@@ -11,3 +12,13 @@ for _, v in pairs(blacklisted) do
 end
 
 print("Sweaty was here.")
+
+--Looking for game.
+if game.CreatorId == 5237711 then
+    dbog()
+end
+
+--DBOG Script.
+function dbog()
+    print("Dbog") -- Placeholder. Actual script code will be put here once I am done.
+end
