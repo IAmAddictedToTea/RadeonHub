@@ -2,6 +2,7 @@
 local blacklisted = {
 	2728026790, --imtrashcanatBedwars cracking/reselling scripts.
 	2927470557, -- Maxthedogboialt1 cracking/reselling scripts.
+	2484543770, --Zenith_XYZ test
 }
 local plr = game:GetService("Players").LocalPlayer
 
