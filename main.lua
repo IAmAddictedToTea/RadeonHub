@@ -13,12 +13,12 @@ end
 
 print("Sweaty was here.")
 
---Looking for game.
-if game.CreatorId == 5237711 then
-    dbog()
-end
-
 --DBOG Script.
 function dbog()
     print("Dbog") -- Placeholder. Actual script code will be put here once I am done.
+end
+
+--Looking for game.
+if game.CreatorId == 5237711 then
+    dbog()
 end
